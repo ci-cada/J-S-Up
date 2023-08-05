@@ -19,5 +19,10 @@ This will make me understand or know where I am going wrong or where I need be f
 The challenges will be in this repo together with the codes with titles of the week( Week 1).
 
 
+## OUTLINE 
+
+- [Intro](./Day_1)
+
+
 *A journey of 1000 miles begins with one step*
 *We dont solve a problem by having the same mindset as you had while creating the problem*

@@ -197,4 +197,28 @@ Once one has created the time object. It will provide any information about time
 const now = new Date()
 console.log(now)
 ```
-[Exercises](../exercise.md)
+
+In date time whenever we are required to print time using the real time date object. Use the _padStart_ that takes in two arguments and then change the output into a string.
+the syntax is as follows;
+```sh
+String(now.getDate()).padStart(2, '0')
+```
+More explanation 
+
+The padStart() method is a built-in method available for strings in JavaScript. It is used to pad the current string with another string (or a specified character) until the resulting string reaches a given length. If the original string is already longer than or equal to the specified length, padStart() has no effect, and the original string is returned as-is.
+```js
+str.padStart(targetlength [, padString])
+//str the original string 
+// largetlength being the desired length of the resulting padded string 
+//padstring being an optional string or character user for padding the default is always and empty string 
+```
+**Example**
+```js
+const originalString = "5";
+const paddedString = originalString.padStart(2, '0');
+console.log(paddedString); // Output: "05"
+
+```
+This ensures that it starts with leading 0's where neccessary.
+
+- [Exercises](./exercise.md)

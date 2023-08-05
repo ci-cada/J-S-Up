@@ -66,3 +66,28 @@ userAge > 18
     ? console.log("You are", userAge,". You are old enough to drive")
     : console.log("You are", userAge,". You wil be allowed to drive after ", 18 - userAge," years")
 
+//9
+const yearsLived = prompt('Enter number of years you live:');
+const secondsLived = yearsLived * 365 * 24 * 60 * 60;
+console.log(`You lived ${secondsLived} seconds.`);
+
+
+//10
+const now = new Date();
+const year1 = now.getFullYear();
+const month1 = String(now.getMonth() + 1).padStart(2, '0');
+const day1 = String(now.getDate()).padStart(2, '0');
+const hours1 = String(now.getHours()).padStart(2, '0');
+const minutes1 = String(now.getMinutes()).padStart(2, '0');
+
+//1. YYYY-MM-DD HH:mm
+const formattedDate1 = `${year1}-${month1}-${day1} ${hours1}:${minutes1}`;
+console.log(formattedDate1);
+
+//2. DD-MM-YYYY HH:mm
+const formattedDate2 = `${day1}-${month1}-${year1} ${hours1}:${minutes1}`;
+console.log(formattedDate2);
+
+//3. DD/MM/YYYY HH:mm
+const formattedDate3 = `${day1}/${month1}/${year1} ${hours1}:${minutes1}`;
+console.log(formattedDate3);

@@ -22,8 +22,6 @@ The challenges will be in this repo together with the codes with titles of the w
 ## OUTLINE 
 
 - [Intro](./Day_1)
-- [Day 2](./Day_2)
-- [Day 3](./Day_3)
 
 
 *A journey of 1000 miles begins with one step*

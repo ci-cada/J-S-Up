@@ -13,42 +13,41 @@ let years = prompt("Enter experience years: ")
 if (age >= 18){
     console.log("You are qualified for this job application\n")
     console.log("Based on your job occupation previously, you qualify for the following job")
-
-    switch(occupation){
+    check = occupation.toLowerCase()
+    switch(check){
         case 'driver':
            years > 5
-                ? console.log(`Superb experience, you qualify as the head of the Deliveries department\nFull names: ${name}\nAge: ${age}\nOccupation: ${occupation}\n`)
-                : console.log(`Fair, I am sure you will fit in well with our members in due time\nFull names: ${name}\nAge: ${age}\nOccupation: ${occupation}\n`)
+                ? console.log(`Superb experience, you qualify as the head of the Deliveries department\nFull names: ${name}\nAge: ${age}\nOccupation: ${check}\n`)
+                : console.log(`Fair, I am sure you will fit in well with our members in due time\nFull names: ${name}\nAge: ${age}\nOccupation: ${check}\n`)
             break;
-
-
+            
         case 'receptionist':
            years > 3
-                ? console.log(`Superb experience, you qualify as the head of Office Staff\nFull names: ${name}\nAge: ${age}\nOccupation: ${occupation}\n`)
-                : console.log(`Fair, I am sure you will fit in well with our members in due time\nFull names: ${name}\nAge: ${age}\nOccupation: ${occupation}\n`)
+                ? console.log(`Superb experience, you qualify as the head of Office Staff\nFull names: ${name}\nAge: ${age}\nOccupation: ${check}\n`)
+                : console.log(`Fair, I am sure you will fit in well with our members in due time\nFull names: ${name}\nAge: ${age}\nOccupation: ${check}\n`)
 
             break;
 
 
         case 'waiter':
             years > 5
-                ? console.log(`Superb experience, you qualify as the chief event organizer\nFull names: ${name}\nAge: ${age}\nOccupation: ${occupation}\n`)
-                : console.log(`Fair, I am sure you will fit in well with our members in due time\nFull names: ${name}\nAge: ${age}\nOccupation: ${occupation}\n`)
+                ? console.log(`Superb experience, you qualify as the chief event organizer\nFull names: ${name}\nAge: ${age}\nOccupation: ${check}\n`)
+                : console.log(`Fair, I am sure you will fit in well with our members in due time\nFull names: ${name}\nAge: ${age}\nOccupation: ${check}\n`)
             break;
 
 
         case 'developer':
            years > 7
-                ? console.log(`Superb experience, you qualify as the head of DEVOPs team\nFull names: ${name}\nAge: ${age}\nOccupation: ${occupation}\n`)
-                : console.log(`Fair, I am sure you will fit in well with our members in due time\nFull names: ${name}\nAge: ${age}\nOccupation: ${occupation}\n`)
+                ? console.log(`Superb experience, you qualify as the head of DEVOPs team\nFull names: ${name}\nAge: ${age}\nOccupation: ${check}\n`)
+                : console.log(`Fair, I am sure you will fit in well with our members in due time\nFull names: ${name}\nAge: ${age}\nOccupation: ${check}\n`)
             console.log("developer")
             break;
 
 
         case 'it specialist':
            years > 10
-                ? console.log(`Superb experience, you qualify as the head of the IT Department\nFull names: ${name}\nAge: ${age}\nOccupation: ${occupation}\n`)
-                : console.log(`Fair, I am sure you will fit in well with our members in due time\nFull names: ${name}\nAge: ${age}\nOccupation: ${occupation}\n`)
+                ? console.log(`Superb experience, you qualify as the head of the IT Department\nFull names: ${name}\nAge: ${age}\nOccupation: ${check}\n`)
+                : console.log(`Fair, I am sure you will fit in well with our members in due time\nFull names: ${name}\nAge: ${age}\nOccupation: ${check}\n`)
             console.log("IT Specialist")
             break;
 

@@ -27,6 +27,7 @@ The challenges will be in this repo together with the codes with titles of the w
 - [Day 4](./Day_4)
 - [Day 5](./Day_5)
 - [Day 6](./Day_6)
+- [Day 7](./Day_7)
 
 *A journey of 1000 miles begins with one step*
 ##                                  and 

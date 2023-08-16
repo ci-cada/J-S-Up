@@ -1,6 +1,6 @@
-# 🤠Day 4
+# 🤠Day 4 
 
-## Conditionals
+## Conditionals 
 
 These are used to make decisions based on different conditions. By default these statements in JavaScript are excecuted from top to botton.
 
@@ -10,17 +10,17 @@ Though the sequential flow of execution can be altered in two ways.
  2. Repetitive execution: a block of one or more statements wull be repetitively executed as long as a certain expression is true. In this section, we will cover the basic statements _if and if else_
 
  They are implemented using the following ways.
- - if
+ - if 
  - if else
  - if else if else
- - switch
- - ternary operator
+ - switch 
+ - ternary operator 
 
-These simply follow the following syntax
+These simply follow the following syntax 
 
 **if**
-The code is executed only if the if statement is true
-```js
+The code is executed only if the if statement is true 
+```js 
 if (condition){
     //code block
 }
@@ -89,12 +89,12 @@ switch (true) {
 
 Here the first code block after the question mark is executed if the condition is true else the other one is executed
 ```js
-condition
+condition 
     ? //code
     : //code
 ```
 
 
-Here is a code using all the given conditions to show how they are implemented in JavaScript. Intent on making use of if else, the switch and the ternary operator.[Conditionals](./conditionals.js)
+Here is a code using all the given conditions to show how they are implemented in JavaScript. Intent on making use of if else, the switch and the ternary operator.
 
-Else here are the Days Challenges to be completed on the Day 35 of 100 Days of code [Exercises](../exercises.md)
+Else here are the Days Challenges to be completed on the Day 35 of 100 Days of code [Exercises](../exercises.md) 

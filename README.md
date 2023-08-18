@@ -1,4 +1,7 @@
-# JavaScript learning.
+# JavaScript Programming.
+
+
+![js](./js.jpg)
 
 Talk about learning, I decided to finally learn JavaScript after years of being afraid of the language.
 
